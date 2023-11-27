@@ -27,7 +27,7 @@
         "develop": "webpack-dev-server --config webpack.dev.config.js",
         "lint": "eslint 'src/**/*.{js,ts}'",
         "release": "npm run lint && npm run test && npm run build-all && npm run copy-examples-to-dist",
-        "prepare": "npm run build"
+        "prepare": "npm run build-all"
     },
     "author": "Divya Sampath Kumar <divku@amazon.com>",
     "license": "Apache-2.0",
