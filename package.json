@@ -55,7 +55,7 @@
         "webpack-merge": "^4.2.2"
     },
     "dependencies": {
-        "isomorphic-webcrypto": "^2.3.6",
+        "isomorphic-webcrypto": "git@github.com:kelvinlawson/isomorphic-webcrypto.git",
         "jsdom": "^20.0.0",
         "json-schema": "^0.4.0",
         "json5": "^2.2.3",
